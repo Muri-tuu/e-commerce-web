@@ -1,4 +1,3 @@
-
 interface Args {
   disableLabel?: true
   disableAppearance?: true
