@@ -1,3 +1,4 @@
+
 import type { GlobalConfig } from 'payload/types'
 
 import link from '../fields/link'
@@ -8,6 +9,11 @@ export const Footer: GlobalConfig = {
     read: () => true,
   },
   fields: [
+    {
+      name: 'copyright',
+      label: 'Copyright',
+      type: 'text',
+    },
     {
       name: 'navItems',
       type: 'array',
