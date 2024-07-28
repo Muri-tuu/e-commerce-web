@@ -11,7 +11,7 @@ const Promotion = () => {
     seconds: 0,
   })
 
-  const targetDate = new Date()
+  const targetDate = new Date();
   targetDate.setDate(targetDate.getDate() + 3)
 
   useEffect(() => {
@@ -33,9 +33,9 @@ const Promotion = () => {
     }, 1000)
 
     return () => {
-      clearInterval(timerInterval) // Cleanup the interval when the component unmounts.
-    }
-  }, [])
+      clearInterval(timerInterval); // Cleanup the interval when the component unmounts.
+    };
+  }, [targetDate])
 
   return (
     <section className={classes.promotion}>
