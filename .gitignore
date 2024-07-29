@@ -7,23 +7,7 @@ node_modules
 .next
 .vercel
 .vscode
-.editorconfig
-.eslintrc.js
-.prettierignore
-.prettierrc.js
-csp.js
-docker-compose.yml
-Dockerfile
-eject.ts
-next-env.d.ts
-next.config.js
-nodemon.json
-package-lock.json
-package.json
-redirects.js
-tsconfig.json
-tsconfig.server.json
-yarn.lock
+
 
 
 
